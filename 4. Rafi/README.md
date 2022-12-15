@@ -56,11 +56,11 @@ After that I'll paste the copied data in the injection file that I have just cre
 ![13  Pasting into injection](https://user-images.githubusercontent.com/120240771/207908981-6d9003d6-0c59-4949-a425-b68f665c02a4.png)
 <br><br>
 
-Then I'll type the command *sqlmap -r injection -p username* to check if the password is injectable. But I found that the username is not injectable.
+Then I'll type the command *"sqlmap -r injection -p username"* to check if the password is injectable. But I found that the username is not injectable.
 ![14  Testing if injectable](https://user-images.githubusercontent.com/120240771/207910703-51f36bd9-cfae-403b-b2ac-dab9a01961bd.png)
 <br><br>
 
-Then I'll type another command *sqlmap -r injection -p password* to check if the password is injectable.
+Then I'll type another command *"sqlmap -r injection -p password"* to check if the password is injectable.
 ![15  Testing if injectable](https://user-images.githubusercontent.com/120240771/207911092-88b296e0-57dd-4f80-8a12-0d292b673aef.png)
 <br><br>
 
