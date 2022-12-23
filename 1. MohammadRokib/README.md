@@ -15,4 +15,15 @@ I'm Mohammad Rokib Khan. Me and my team is working on a project where we've buil
 ### 1. Installing GNS3 <br> <br>
 
 Graphical Network Simulator-3 is a network software emulator first released in 2008. It allows the combination of virtual and real devices, used to simulate complex networks. It uses Dynamips emulation software to simulate Cisco IOS.<br>
-To download GNS3 at first we've to go to this link: [GNS3](https://www.gns3.com/software/download/)
+To download GNS3 at first we've to go to this link: [GNS3](https://www.gns3.com/software/download/)<br>
+This page will come up
+![Screenshot from 2022-12-23 09-21-29](https://user-images.githubusercontent.com/60141836/209264595-99aacdb8-f413-4cd0-824c-23a41d74b45a.png)
+<br><br>
+
+I will select the windows option as I am using an Windows PC. Then a page like this will come up with a download pop up
+![Screenshot (342)](https://user-images.githubusercontent.com/60141836/209265435-529f53a3-80b9-43da-975f-780d43a71a88.png)
+<br><br>
+
+A file like this will be downloaded
+![Screenshot (343)](https://user-images.githubusercontent.com/60141836/209265454-d5153599-8304-4ed5-9bcc-39857bbfb50a.png)
+<br><br>
