@@ -7,7 +7,7 @@ Now a days all Website, Apps we use by connecting to the internet are vulnerable
 
 So we have built a topology consists of 4 routers which contains their own network consisting one switch and a PC. One of the PC is acting as a Web Server.
 
-![Screenshot (340)](https://user-images.githubusercontent.com/60141836/209248491-304bfd0b-3840-483d-bafc-aba3ab37f03d.png)
+![Screenshot (341)](https://user-images.githubusercontent.com/60141836/209249862-8caa91a6-0d15-4aeb-9875-f4f7729b685a.png)
 
 <br>
 Still editing....
