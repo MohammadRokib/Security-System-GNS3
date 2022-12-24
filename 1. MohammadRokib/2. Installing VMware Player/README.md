@@ -62,5 +62,5 @@ Then click **Finish**<br>
 ![Screenshot (30)](https://user-images.githubusercontent.com/60141836/209432674-f08ece0e-2e68-4fc4-93f5-578c0e34f213.png)
 <br><br>
 
-After that the installation is complete. Now we can use VMware Player.<br>
+After the installation is complete. Now we can use VMware Player.<br>
 ![Screenshot (31)](https://user-images.githubusercontent.com/60141836/209432675-97344b99-66fe-497b-b06d-db998b7d328b.png)
