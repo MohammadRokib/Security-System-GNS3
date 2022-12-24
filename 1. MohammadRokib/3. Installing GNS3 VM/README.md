@@ -10,7 +10,7 @@ A download popup will come. I'll click save as and choose the directory where I 
 ![2](https://user-images.githubusercontent.com/60141836/209441439-82467094-1c6c-4b97-91b7-7f357fadd463.png)
 <br><br>
 
-A zip file will be downloaded. I'll extract it by right clicking on it and then **Extract Here**<br> from 7-Zip
+A zip file will be downloaded. I'll extract it by right clicking on it and then **Extract Here** from 7-Zip<br>
 ![3](https://user-images.githubusercontent.com/60141836/209441441-f3c7b7b3-acc4-4044-8a0c-69f1c0c7db53.png)
 <br><br>
 
@@ -38,11 +38,11 @@ Type **GNS3 VM** in the Name for the new virtual machine field<br>
 ![9](https://user-images.githubusercontent.com/60141836/209441450-47faa530-3035-4fc3-a96b-3a7d1cb44724.png)
 <br><br>
 
-Then GNS3 VM will import in VMware. Upon completing we will GNS3 VM in VMware<br>
+Then GNS3 VM will be imported in VMware. Upon completing we will GNS3 VM in VMware<br>
 ![10](https://user-images.githubusercontent.com/60141836/209441451-0951088c-4ce6-4344-a0cd-4a5db9fecdbc.png)
 <br><br>
 
-Then I'll open GNS3. Here we can see there is only one option in Server Summary which our local pc<br>
+Then I'll open GNS3. Here we can see that, there is only one option in Server Summary which is my local pc<br>
 ![11](https://user-images.githubusercontent.com/60141836/209441452-67893474-634b-4e1a-a1df-5a6f517c81b3.png)
 <br><br>
 
@@ -66,7 +66,7 @@ Select **GNS3 VM** in **Settings** and allocate vCPUs and RAM as per our need th
 ![16](https://user-images.githubusercontent.com/60141836/209441461-1d2bce65-bb6e-458d-a442-c9e575598ef6.png)
 <br><br>
 
-Then we can see GNS3 VM in the Servers Summary. Which means our GNS3 VM is successfully connected to GNS3<br>
+Then we can see that, GNS3 VM in the Servers Summary. Which means our GNS3 VM is successfully connected to GNS3<br>
 ![17](https://user-images.githubusercontent.com/60141836/209441463-0e63ff14-0f3e-4105-8da8-4922d5ae9461.png)
 <br><br>
 
