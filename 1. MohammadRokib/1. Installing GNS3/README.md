@@ -74,5 +74,5 @@ Click I Accept<br>
 ![Screenshot (15)](https://user-images.githubusercontent.com/60141836/209420738-eb74e6e0-8b35-4e58-ac71-c2fa25bb2fcf.png)
 <br><br>
 
-After a few minutes the installation will be completed and we can use GNS3
+After a few minutes the installation will be completed and we can use GNS3<br>
 ![Screenshot (42)](https://user-images.githubusercontent.com/60141836/209430091-7cd71d9e-ea75-4161-969b-ee1dbeb1b920.png)
