@@ -19,7 +19,7 @@ We can see all the guest appliances here<br>
 ![4](https://user-images.githubusercontent.com/60141836/209454946-a03bbe03-9d60-4f7f-b406-cf658342f787.png)
 <br><br>
 
-Then go down to find the Windows appliance and click **Next**<br>
+Then go down to find the Windows appliance and click **Install**<br>
 ![5](https://user-images.githubusercontent.com/60141836/209454947-a1c1b320-6a5b-4e2f-8228-0f7a5676e9f9.png)
 <br><br>
 
@@ -91,7 +91,7 @@ Click **Yes**<br>
 ![22](https://user-images.githubusercontent.com/60141836/209454968-ad820521-1286-4548-aa03-968fbb30caf2.png)
 <br><br>
 
-We can the deafault username and password for the Windows appliance. Then click **Finish**<br>
+We can see the default username and password for the Windows appliance. Then click **Finish**<br>
 ![23](https://user-images.githubusercontent.com/60141836/209454970-be8d42a3-f13a-44dd-9f37-bcdc0516002a.png)
 <br><br>
 
