@@ -1,0 +1,29 @@
+conf t
+
+int f0/0
+ip address 172.16.68.65 255.255.255.192
+no shut
+exit
+
+int s1/0
+ip address 10.0.0.2 255.255.255.252
+no shut
+exit
+
+int s1/1
+ip address 20.0.0.2 255.255.255.252
+no shut
+exit
+
+int s1/2
+ip address 50.0.0.2 255.255.255.252
+no shut
+exit
+
+router ospf 1
+
+network 172.16.68.64 0.0.0.63 area 0
+network 10.0.0.0 0.0.0.3 area 0
+network 20.0.0.0 0.0.0.3 area 0
+network 50.0.0.0 0.0.0.3 area 0
+end
