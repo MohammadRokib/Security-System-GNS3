@@ -55,6 +55,6 @@ show  ip ospf int
 
 <br><br>
 ```
-show  ip ospf neigh detail
+show  ip ospf neigh detail.
 ```
 ![5](https://user-images.githubusercontent.com/60141836/209469409-733bfaf1-f609-482a-8d9a-57a68f1f2648.png)
