@@ -100,3 +100,84 @@ We can see the Windows appliance on the left in the **End devices** tab<br>
 <br><br>
 
 
+Similarly I'll install the Kali Linux appliance. I'll select Kali Linux appliance from the guest appliances and click **Install**<br>
+![1](https://user-images.githubusercontent.com/60141836/209456061-2a4b8f69-3ec7-4457-b2d0-9c0c7033bc33.png)
+<br><br>
+
+Click **Next**<br>
+![2](https://user-images.githubusercontent.com/60141836/209456064-97da3e5f-2039-4776-8b25-d4a4cf730b80.png)
+<br><br>
+
+**Next**<br>
+![3](https://user-images.githubusercontent.com/60141836/209456065-ef9738d9-b43e-4df3-b94d-320f2a5053a1.png)
+<br><br>
+
+We need 2 files for the Kali Linux appliance. First I'll download them select the file and then click **Download** on the bottom<br>
+![4](https://user-images.githubusercontent.com/60141836/209456066-4ecf2b21-936b-4d48-bc24-5278338d0c61.png)
+<br><br>
+
+**Save as**->**Select the destination folder**->**Save**<br>
+![5](https://user-images.githubusercontent.com/60141836/209456068-fb74e4f3-77a3-4576-a08b-4413a44eb4d4.png)
+<br><br>
+
+Then I'll download the second file. Select the file and click **Download** on the bottom<br>
+![6](https://user-images.githubusercontent.com/60141836/209456069-83594a24-e8cd-4963-be0e-498d49aeb19a.png)
+<br><br>
+
+It will land on then this page. Download will start automatically<br>
+![7](https://user-images.githubusercontent.com/60141836/209456070-884f6f84-22cc-4731-88fe-aeb3c167da21.png)
+<br><br>
+
+**Save as**->**Select the destination folder**->**Save**<br>
+![8](https://user-images.githubusercontent.com/60141836/209456071-1efd6e61-805b-4d48-9801-38fde435ea96.png)
+<br><br>
+
+These 2 files will be downloaded<br>
+![9](https://user-images.githubusercontent.com/60141836/209456073-c2a90899-a5b6-4c9a-91a6-3b690dfb32ea.png)
+<br><br>
+
+Then I'll import the first file. Select the file and click **Import** on the bottom<br>
+![10](https://user-images.githubusercontent.com/60141836/209456074-682855b4-546d-4456-9c93-69301512ada6.png)
+<br><br>
+
+Select the file  from files and click **Open**<br> 
+![11](https://user-images.githubusercontent.com/60141836/209456075-dce8675b-7741-414a-bbd9-1f0062fe88d4.png)
+<br><br>
+
+The file will start importing<br>
+![12](https://user-images.githubusercontent.com/60141836/209456076-9e20b973-6e32-4ca4-a6fd-56937f3f4363.png)
+<br><br>
+
+After the import is complete I'll import the second file<br>
+![13](https://user-images.githubusercontent.com/60141836/209456077-9707d4ad-968a-493e-80a1-ae57be6f49fe.png)
+<br><br>
+
+Select the file and click **Import** on the bottom<br>
+![14](https://user-images.githubusercontent.com/60141836/209456078-d3d5b694-f4cd-4bbe-8097-2243a7918abc.png)
+<br><br>
+
+Select the file from files and click **Open**<br>
+![15](https://user-images.githubusercontent.com/60141836/209456079-8efcc492-438b-4c77-8f10-69ce3ffadfa0.png)
+<br><br>
+
+After importing both files we can see that Kali Linux is ready to install. Click **Next**<br>
+![16](https://user-images.githubusercontent.com/60141836/209456080-fab7a914-ae4e-482e-96bc-c6dce4381f7f.png)
+<br><br>
+
+Click **Yes**<br>
+![17](https://user-images.githubusercontent.com/60141836/209456081-a79d3bd6-5df3-46d5-b49d-f258a1384a82.png)
+<br><br>
+
+We can see  the default password for the Kali Linux appliance. Click **Finish**<br> 
+![18](https://user-images.githubusercontent.com/60141836/209456082-74224f5f-d051-4bc9-9922-47377b9fe9fa.png)
+<br><br>
+
+Click **Ok**<br>
+![19](https://user-images.githubusercontent.com/60141836/209456083-fa1717a3-2b10-4c04-95c3-36ac7873c78c.png)
+<br><br>
+
+We can see the Kali Linux appliance on the left in the **End devices** tab<br>
+![20](https://user-images.githubusercontent.com/60141836/209456084-4e44e773-0023-4874-97eb-7383608db26d.png)
+<br><br>
+
+After installing both Windows and Kali Linux appliances we can use them in our topology.
