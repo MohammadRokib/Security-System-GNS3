@@ -68,4 +68,92 @@ But I also found that the password is also not injectable.
 ![16  Testing if injectable](https://user-images.githubusercontent.com/120240771/207911285-9ae38063-3830-4600-9cb1-77784d08feba.png)
 <br><br><br><br>
 
-Not completed yet.....
+Since SQL injection attack didn't work next, I'll try brute force attack. In cryptography, a brute-force attack consists of an attacker submitting many passwords or passphrases with the hope of eventually guessing correctly. The attacker systematically checks all possible passwords and passphrases until the correct one is found.
+
+To check all possible passwords we need a wordlist which contains a lot of passwords. Luckily Kali Linux comes with so many wordlists built in. If I go to the directory **/usr/share/wordlists/** I will find all the built in wordlists. From here I will go to the directory **metasploit**<br>
+![17](https://user-images.githubusercontent.com/60141836/209540351-063dc63d-2b8c-481c-bdac-54197817c9bb.png)
+<br><br>
+
+Then I'll choose the file **unix_passwords.txt**. You can choose the other one as well<br>
+![18](https://user-images.githubusercontent.com/60141836/209540354-e744efef-8405-4568-b001-24231408d3cc.png)
+<br><br>
+
+Then I'll copy it into the **Documents** folder<br>
+![19](https://user-images.githubusercontent.com/60141836/209540355-bfd1c526-bd47-4bd6-b401-a6024a363fce.png)
+<br><br>
+
+Then I'll go back to the **Proxy** tab of **Burp Suite** again and **Right Click** then select **Send to Intruder**<br>
+![20](https://user-images.githubusercontent.com/60141836/209540306-42b62be6-99ff-4a6e-9c95-37ff9c6dbb1a.png)
+<br><br>
+
+In the Intruder tab I'll clear **§** this character from all the lines except from the password<br>
+![21](https://user-images.githubusercontent.com/60141836/209540311-f3d4a5b4-b685-4835-a533-b65c14a971af.png)
+<br><br>
+
+To clear the character **§** I'll select the line then click the button **Clear §**<br>
+![22](https://user-images.githubusercontent.com/60141836/209540313-2d737431-8f3d-4a96-b176-45e4550a8521.png)
+<br><br>
+
+Then I'll go to **Payloads** tab and click **Load** in **Payload Options [Simple list]**<br>
+![23](https://user-images.githubusercontent.com/60141836/209540314-6061f8bd-1148-4113-a898-be8177f83420.png)
+<br><br>
+
+A new window will appear. I'll select the password list that I previously pasted into Documents folder and double click on it<br>
+![24](https://user-images.githubusercontent.com/60141836/209540315-5cc4dbd8-d312-4d5a-894f-7374ee6682e0.png)
+<br><br>
+
+All the passwords will load into Burp Suite<br>
+![25](https://user-images.githubusercontent.com/60141836/209540316-8313a735-fbd6-454c-a0cf-35942dca1470.png)
+<br><br>
+
+Then I'll go to the **Options** tab and then into **Grep-Match**<br>
+![26](https://user-images.githubusercontent.com/60141836/209540318-61884e7a-b2d3-4766-bf70-0bd095b87009.png)
+<br><br>
+
+Then I'll click **Clear** and then **Yes**<br>
+![27](https://user-images.githubusercontent.com/60141836/209540322-43abc20a-dc3d-49dd-b04a-1009d90a152d.png)
+<br><br>
+
+Then I'll go back to **Repeater** window and copy the error message from the **Response** tab<br>
+![28](https://user-images.githubusercontent.com/60141836/209540323-b14fe4ec-bddc-4c3b-8195-5f7db63e9ded.png)
+<br><br>
+
+I'll paste the error message into **Grep-Match** in the **Options** window<br>
+![29](https://user-images.githubusercontent.com/60141836/209540324-8727becb-b460-4774-8e76-bfa1dc37ee07.png)
+<br><br>
+
+Then click **Add**. And check the box where it says **Flag result items with responses**<br>
+![30](https://user-images.githubusercontent.com/60141836/209540325-8cb8b32e-74e3-45bf-9b42-4bbef2f956a6.png)
+<br><br>
+
+Then click the **Start attack** button on the top right corner of the **Options** window<br>
+![31](https://user-images.githubusercontent.com/60141836/209540328-5d9dfd1a-f256-4a20-8b28-c45985a70948.png)
+<br><br>
+
+Click **Ok**<br>
+![32](https://user-images.githubusercontent.com/60141836/209540330-942aeca1-dcb3-4933-985c-a5aedb2f620f.png)
+<br><br>
+
+The attack will start. We can see that status for every try is 200. Which means it is not getting any error. And the value in the __Wrong username & password combination__ is 1. For the correct password it'll 0<br>
+![33](https://user-images.githubusercontent.com/60141836/209540333-3abb0ca1-1f3e-4f48-8263-5088da677953.png)
+<br><br>
+
+Here we can see that for try 207 the value for __Wrong username & password combination__ is blank or 0. That means this is the correct password<br>
+![34](https://user-images.githubusercontent.com/60141836/209540335-ba5bf1fd-bce5-40c2-aede-c740d8f22fc0.png)
+<br><br>
+
+Now I'll stop the attack discard it<br>
+![35](https://user-images.githubusercontent.com/60141836/209540339-a149c68e-2fc8-4d24-8d8f-6aeb354a7058.png)
+<br><br>
+
+And then exit from Burp Suite<br>
+![36](https://user-images.githubusercontent.com/60141836/209540343-77bed39f-b65f-4872-b455-b63c17c58a37.png)
+<br><br>
+
+Then I'll go to a normal browser give the correct password which I just found out and click **Login**<br>
+![37](https://user-images.githubusercontent.com/60141836/209540345-21213f09-0e55-4986-b881-6fcd521b17b7.png)
+<br><br>
+
+We can see that the login was successful. Thus it can be said that the Hack was successful<br>
+![38](https://user-images.githubusercontent.com/60141836/209540348-8dedac8a-ff91-497c-84fb-e28a47f38f47.png)
+<br><br>
