@@ -38,7 +38,6 @@ And then we will give it a static IP address. I'll define the IP address, Subnet
 ![9](https://user-images.githubusercontent.com/60141836/209491611-1221d9ce-02fd-47fe-861b-9061807e69a6.png)
 <br><br>
 
-Lastly I'll check the IP address through this command.
-```ipconfig```<br>
+Lastly I'll check the IP address through this command: ```ipconfig```<br>
 ![10](https://user-images.githubusercontent.com/60141836/209491613-076d6bee-cf77-4c52-848b-423006d242af.png)
 <br><br>
