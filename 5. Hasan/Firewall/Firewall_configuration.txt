@@ -1,0 +1,33 @@
+### Firewall configuration ###
+
+conf t
+
+int s1/0
+ip address 60.0.0.1 255.255.255.252
+no shut
+exit
+
+int s1/2
+ip address 50.0.0.1 255.255.255.252
+no shut
+exit
+
+router ospf 1
+
+network 50.0.0.0 0.0.0.3 area 0
+network 60.0.0.0 0.0.0.3 area 0
+end
+
+
+conf t
+ip access-list extended BLOCK
+deny tcp host 192.16.68.60 host 172.16.68.50
+permit ip any any
+end
+
+conf t
+int s1/0
+ip access-group BLOCK in
+end
+
+
